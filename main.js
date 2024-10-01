@@ -1,3 +1,6 @@
+require('dotenv').config();
+
+
 const { Client, GatewayIntentBits, Events, EmbedBuilder } = require('discord.js');
 const admin = require('firebase-admin');
 const serviceAccount = require('./src/raidsign.json'); // Your Firebase JSON file
